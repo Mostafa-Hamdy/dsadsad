@@ -1,0 +1,23 @@
+html{
+   scroll-behavior: smooth;
+}
+body { 
+   background-color: var(--smoky-black);
+   
+   font-family: Avenir, Helvetica, Arial, sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+// h1, h2, h3, h4, h5, h6{
+//    text-transform: uppercase;
+// }
+p, ul{
+   text-transform: capitalize;
+}
+a, span {
+   display: block;
+}
+
+
+
+// Support ScrollBar in firefox

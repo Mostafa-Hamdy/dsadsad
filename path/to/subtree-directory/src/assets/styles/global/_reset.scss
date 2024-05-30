@@ -1,0 +1,53 @@
+*,
+// ? h1, h2, h3, h4, h5, h6   => ليه ضيفت دى هنا 
+*::after,
+*::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+
+   // transition: 0.2s;
+}
+
+a {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+li {
+   list-style: none;
+}
+
+input {
+   border: none;
+   outline: none;
+   background-color: transparent;
+}
+
+button {
+   cursor: pointer;
+   appearance: none;
+   background-color: transparent;
+   border: none;
+   outline: none; /* ! انتا عملت دى ليه  */
+}
+
+// select {
+//    border: none;
+//    outline: none;
+//    background-color: #f2f2f2;
+
+//    option {
+//       background-color: #f2f2f2;
+//    }
+// }
+
+// body {
+//    overflow: hidden;
+// }
+// body::-webkit-scrollbar {
+//    display: none;
+// }
+// ::selection {
+//    user-select: none;
+// }
