@@ -1,0 +1,77 @@
+@import "./global/_varible";
+@import "./partials/form";
+@import "./global/reset";
+@import "./global/rules";
+@import "./global/reuse";
+
+
+#app {
+   position: relative;
+   margin: 15px 12px;
+   min-width: 259px;
+}
+
+svg {
+   height: 20px;
+   fill: var(--vegas-gold);
+   fill: transparent;
+   stroke: transparent;
+   stroke: var(--vegas-gold);
+   stroke-width: 1px;
+}
+.box-svg {
+   border: 0.25px solid palevioletred;
+   border-radius: 3px;
+   padding: 2px;
+   background: linear-gradient( to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97% );;
+}
+.cart-icon {
+   width: 33px;
+   height: 42px;
+}
+.svg-icon {
+   width: 60px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+   fill: #353941;
+}
+
+.svg-icon circle {
+   stroke: #bb4646;
+   stroke-width: 1;
+}
+
+.separator{
+   width: 100%;
+   height: 1px;
+   background-color: hsl(0, 0%, 22%);
+   margin: 25px 0;
+}
+   
+.fade-enter-from,
+.fade-leave-to {
+   opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+   // transition: opacity 0.5s ease backwards;   /* for sidebar */
+   transition: opacity 0.5s ease;   /* for BaseModel */
+   // transition: opacity 0.25s ease;   /* for BaseModel */
+}
+
+
+// width="16" height="16" fill="currentColor"
+
+input {
+   position: relative;
+}
+input::before {
+   content: "Search With Data";
+
+   position: absolute;
+}
+input:hover::before {}

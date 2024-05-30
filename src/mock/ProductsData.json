@@ -1,0 +1,42 @@
+{
+   "products": [
+      {
+         "id": "1",
+         "title": "Caprisioza",
+         "price": 75,
+         "img": "img",
+         "descriptions": "ingredients",
+         "ingredients": "Beet Tonado stuffd",
+         "quantity": 20,
+         "category": "Beef"
+      },
+      {
+         "id": "2",
+         "title": "Ceraspe Sapice",
+         "price": 300,
+         "img": "img",
+         "descriptions": "ingredients",
+         "ingredients": "ingredients",
+         "quantity": 20,
+         "category": "Chicken"
+      },
+      {
+         "id": "3",
+         "title": "Ceraspe sypas",
+         "price": 300,
+         "img": "img",
+         "descriptions": "ingredients",
+         "ingredients": "ingredients",
+         "quantity": 20,
+         "category": "Chicken"
+
+      }
+   ],
+   "sides": [
+      "Rice",
+      "Mashed potato",
+      "Grilled vegetables",
+      "Wedges",
+      "sautéed vegetables"
+   ]
+}
